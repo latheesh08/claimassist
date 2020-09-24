@@ -1,0 +1,539 @@
+
+{
+  "auth": {
+    "policy": "Póliza",
+    "claim": "Reclamación",
+    "app-title": "{{clientName}} Móvil {{incidentType}} Aplicación de Asistencia",
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirm": "Confirmar",
+    "forgot-password": "¿Olvidó contraseña?",
+    "register-to-claim": "Registrarse para crear su reclamación",
+    "already-have-account": "¿Ya tiene una cuenta?",
+    "log-in": "Iniciar sesión",
+    "login-error": "Oops, hemos encontrado un problema durante el proceso de ingreso, por favor intente nuevamente y si el problema persiste contacte a un administrador",
+    "user-credentials-problem": "Se produjo un problema al extraer sus credenciales, por favor intente nuevamente y si el problema persiste contacte a un administrador"
+  },
+  "top-nav": {
+    "submitter" : "Remitente",
+    "reviewer" : "Revisor",
+    "supervisor" : "Supervisor",
+    "claim" : "reclamación",
+    "policy" : "política",
+    "my-claims": "Mis Reclamaciones",
+    "my-policies" : "Mis Pólizas",
+    "start-policy" : "Iniciar nueva política",
+    "start-incident": "Iniciar nueva reclamación",
+    "delete-image-message": "¿Está seguro de que desea eliminar esta imagen?",
+    "delete-damage-message": "¿Está seguro de que desea eliminar este daño?",
+    "unsaved-policy": "Se han realizado cambios no guardados en la política, ¿desea guardarlos?",
+    "unsaved-claim": "Se han realizado cambios no guardados en la reclamación, ¿desea guardarlos?",
+    "unsaved-message": "Se han realizado cambios no guardados en el {{system}}, ¿desea guardarlos?",
+    "alert-message": "¿Está seguro de que desea iniciar una nueva reclamación?",
+    "policy-alert-message": "¿Está seguro de que desea iniciar una nueva política?",
+    "alert-cancel": "No, cancelar los cambios.",
+    "alert-save": "Si, guardar los cambios.",
+    "alert-yes-text": "Si por favor",
+    "alert-ok-text": "Ok, gracias",
+    "alert-no-text": "No realmente",
+    "logout": "Cerrar sesión"
+  },
+
+  "parts":{
+    "front_bumper": "parachoques delantero",
+    "rear_bumper": "parachoques trasero",
+    "front_door_panel":"panel de la puerta delantera",
+    "rear_door_panel": "panel de la puerta trasera",
+    "front_fender_wing_panel": "guardabarros delantero",
+    "grille": "rejilla",
+    "bonnet_hood":"capot",
+    "license_plate": "placa de matrícula",
+    "boot_trunk": "maletero",
+    "head_light":"faro",
+    "tail_light": "piloto",
+    "side_mirror": "retrovisor",
+    "rear_quarter_panel":"aleta trasera",
+    "rear_back_glass": "vidrio trasero trasero",
+    "wheel": "rueda",
+    "windshield": "parabrisas",
+    "glass":"glass",
+    "lower_bumper_grille": "rejilla de parachoques inferior",
+    "fog_light": "luz de niebla",
+    "emblem": "emblema",
+    "rocker_panel":"panel bajo la puerta",
+    "door_handle": "manilla",
+    "rear_tail_skirt":"falda trasera",
+    "window_glass": "ventana de vidrio",
+    "roof": "techo"
+  },
+  "damages": {
+    "scuff": "Desgaste",
+    "scratch": "rasguño",
+    "dent": "mella",
+    "gouge": "gubia",
+    "crack": "grieta",
+    "break": "descanso",
+    "missing_piece": "pieza perdida",
+    "chip": "chip",
+    "light_damage": "daño leve",
+    "glass_damage": "daño de vidrio",
+    "panel_separation": "separación de paneles"
+},
+  "main-footer": {
+    "logout-message": "¿Está seguro de que desea cerrar sesión?",
+    "alert-yes-logout": "Sí por favor",
+    "alert-no-logout": "No realmente"
+  },
+  "home": {
+    "main-router" : {
+      "loading-message" : "Recopilación de datos para cargar la aplicación",
+      "error-message" : "No se puede cargar la aplicación debido a datos faltantes.",
+      "error-triglav" : "No se puede cargar la aplicación debido a datos faltantes. Por favor incluya el ID del usuario al URL para acceder a la aplicación.",
+      "error-getting" : "Error al obtener información del usuario",
+      "error-email-id-mismatch" : "La dirección de correo electrónico ingresada no coincide con la dirección de correo electrónico de la URL de inicio de sesión. Ingrese la misma dirección de correo electrónico haciendo clic nuevamente en el enlace de la aplicación.",
+      "error-expired-link" : "El enlace de inicio de sesión de la aplicación ha caducado. Solicite uno nuevo de su proveedor."
+    },
+    "claim-list": {
+      "title": "Mis Reclamaciones",
+      "claim": "reclamación",
+      "new-claim": "Crear Nueva Reclamación",
+      "policy": "política",
+      "new-policy": "Crear Nueva Póliza",
+      "report-ready": "Reporte está Listo",
+      "my-claims": "Mis Reclamaciones",
+      "my-policies" : "Mis Pólizas",
+      "error1" : "Error al obtener información de incidentes",
+      "waking" : "Solo me estoy despertando",
+      "retrieve-claims" : "Recuperando lista de reclamaciones",
+      "retrieve-policies" : "Recuperando lista de políticas",
+      "error2" : "Error al intentar recuperar incidentes.",
+      "error-claims" : "Error al obtener la lista de reclamaciones",
+      "error-policies" : "Error al obtener la lista de políticas",
+      "policy-is-being-analyzed": "la política está siendo analizada",
+      "claim-is-being-analyzed": "la reclamación está siendo analizada",
+      "view": "ver",
+      "review": "revisar",
+      "approve": "aprobar",
+      "is": "es",
+      "submitted-on": "Enviado el",
+      "state": "estado",
+      "state-in-progress": "en progreso",
+      "state-pending-review": "revisión pendiente",
+      "state-reviewed": "revisado",
+      "state-appraised": "evaluado"
+    },
+    "input-dropdown" :{
+      "not-found" : "No puedo encontrar una opción que coincida"
+    },
+    "enter-vin": {
+      "title": "El número de información de su vehículo",
+      "subtitle": "Ingrese su vin en el campo de texto a continuación o tome una foto para usar la tecnología número de serie OCR .(beta)",
+      "placeholder": "Ingresar número de serie",
+      "success" : "Detalles del vehículo encontrados",
+      "notfound": "No se encontraron los detalles del vehículo, cargue la información del vehículo a través de la selección de marca / modelo / año del vehículo",
+      "imagenotfound": "No se encontró número de serie válido, intente subir otra imagen o use una de las otras opciones proporcionadas",
+      "getting-info" : "Espere obteniendo información de vin",
+      "upload-photo" : "Subir Imagen",
+      "skip-link" : "Saltar e ingresar manualmente",
+      "inferred-vin-warning" : "Verifique y edite el número de serie capturado para recuperar la información del vehículo.",
+      "image-loading-message" : "Escaneando su imagen para un valor número de serie."
+    },
+    "vehicle-details":{
+      "title" : "Su vehículo",
+      "subtitle" : "Reunamos los detalles del vehículo. Por favor comience eligiendo una de las siguientes opciones.",
+      "description": "",
+      "scan-vin": "Escanear el número de número de serie",
+      "enter-vin": "Introduzca nº de bastidor (VIN)",
+      "enter-manually":"Agregar información manualmente"
+    },
+    "instructions": {
+      "title": "Gracias por proporcionar la información de su vehículo",
+      "take-photos": "Ahora es el momento de tomar algunas fotos del vehículo",
+      "photo-notice": "Tomar las fotos correctas es crucial, así que haga clic en los consejos fotográficos para ver la guía y haga clic en las imágenes del vehículo.",
+      "continue-link": "Continuar con consejos fotográficos",
+      "skip-link": "Saltar los consejos"
+    },
+    "terms-privacy":{
+      "terms" : "Términos de Servicio",
+      "privacy" : "Póliza de Privacidad"
+    },
+    "photo-tips": {
+      "content": "Su cámara debe apuntar directamente al daño en su vehículo.",
+      "next-tip": "Siguiente consejo",
+      "title": "Consejos fotográficos",
+      "previous-tip": "Consejo anterior",
+      "title-1": "Use el ángulo correcto",
+      "content-1": "Su cámara debe apuntar directamente al vehículo con el daño a la altura de sus ojos.",
+      "title-2": "Tome una imagen a una distancia óptima",
+      "content-2": "Tome fotos fuera del automóvil y a only metros 2 or 1.5 metros. Se debe evitar tomar imágenes desde muy cerca o muy lejos.",
+      "title-3": "Tomar imagen con buena iluminación",
+      "content-3": "Tome fotos en un ambiente bien iluminado. Evite imágenes con reflejos, destellos o exposición oscura.",
+      "title-4": "Establecer un entorno adecuado",
+      "content-4": "Limpie todo lodo / tierra / nieve / fluidos que cubran el exterior del automóvil. Retire cualquier cinta, palos adhesivos u otros objetos extraños adheridos a la superficie del vehículo.",
+      "title-5": "No obstruya la vista del vehículo",
+      "content-5": "Retire cualquier objeto que obstruya la vista del vehículo, incluidas las partes del cuerpo (humanas o de otro tipo), otras personas o los reflejos del fotógrafo"
+    },
+    "photo-upload": {
+      "title": "Subir foto",
+      "subtitle": "Tome fotos o súbalas desde su biblioteca.",
+      "sit-tight": "No se mueva",
+      "photos-uploaded": "Las fotos se están subiendo y analizando. Puede llevar algo de tiempo.",
+      "snack-message" : "Se produjo un error en el servidor. Si el problema persiste, por favor contacte a un administrador.",
+      "uploading": "Subiendo...",
+      "initializing": "inicializando",
+      "upload-successful": "Ha subido sus fotos correctamente",
+      "upload-failure": "Hubo un problema al subir sus fotos. Por favor intente de nuevo",
+      "upload-error" : "Error al intentar subir fotos. Por favor intente de nuevo."
+    },
+    "analysis-result": {
+      "title": "Información Recibida",
+      "policy": "política",
+      "claim": "reclamación",
+      "subtitle": "Gracias por enviarnos la información de su {{incidentType}}. Desde {{clientName}} nos pondrmos en contacto con usted en breve.",
+      "rejected-header": "Imágenes rechazadas",
+      "passed-header": "Imágenes pasadas",
+      "alert-message": "Al hacer clic de nuevo, perderá el proceso de sumisión y comenzará una nueva sumisión",
+      "rejected-alert-message": "Haga clic en el signo de interrogación en la imagen para verificar por qué la imagen fue rechazada.",
+      "beta-butterfly" : "(BETA) Ver diagrama de mariposa"
+  },
+    "estimation" : {
+      "appraisal-success" : "Estado de evaluación actualizado con éxito",
+      "appraisal-failure" : "Hubo un problema al actualizar su evaluación",
+      "estimate-success" : "El reporte fue creado exitosamente",
+      "estimate-failure" : "Hubo un problema al crear el reporte",
+      "notification" : "Estoy estimando el daño",
+      "title" : "Estimación",
+      "subtitle" : "Los datos estimados han sido generados y aprobados por {{clientName}}",
+      "basic-info-link" : "Me gustaría {{clientName}} que me contacten para una cita de reparación",
+      "popup-message" : "¿Desea que nos comuniquemos con usted para una cita de reparación?",
+      "popup-yes" : "Sí por favor",
+      "popup-no" : "No gracias",
+      "claim-id" :"Reclamación de ID",
+      "save-estimate" : "Guardar Estimación",
+      "save-estimate-description" : "Captura los cambios realizados por el usuario y los guarda en la base de datos",
+      "decision" : "Decisión",
+      "glass-labor" : "Trabajo de Vidrio",
+      "part-labor":"Trabajo Parcial",
+      "paint-labor" :  "Pintura Mano de Obra" ,
+      "paint-labor-amt" : "Pintura Mano de Obra Amt",
+      "paint-supply-amt" : "Suministro de Pintura Amt",
+      "total-labor-amt" : "Trabajo Total Amt",
+      "part-price" : "Precio Parcial",
+      "hazardous-waste-amt" : "Residuos Peligrosos Amt",
+      "currency" : "USD",
+      "time" : "Hrs",
+
+      "totals" : "Totales",
+      "total-estimate" : "Estimación Total de la Reclamación",
+      "claimlevel" : "Nivel de reclamación",
+      "type0":"Menor / moderada",
+      "type2" : "Inspección manual recomendada",
+      "type1" : "Severo, Inspección manual recomendada",
+      "approve" : "Aprobar Evaluación",
+      "approve-message" : "Aprueba la evaluación para revisión por parte del reclamante",
+      "reviewed" : "Enviar al aprobador",
+      "reviewed-message" : "Marca la evaluación como revisada y notifica a los supervisores",   
+   "return-claims" : "Regresar a mis reclamaciones",
+      "return-policies" : "Regresar a mis políticas",
+      "claim-level-comment":"comentario(optional)",
+      "prompt":"¿Estás seguro de que quieres cambiar el nivel de daño a",
+      "manual-inspection":"Se recomienda la inspección manual del vehículo y es por eso que las estimaciones no se muestran arriba. El vehículo puede ser una pérdida total."
+    },
+    "review-intro": {
+      "save" : "Guardar Evaluación",
+      "save-notification":"Guardando su evaluación",
+      "title": "Revisión de daños",
+      "subtitle": "Nuestro algoritmo identificó {{damage}} daños, {{replace}} parte para reemplazar, y {{repair}} parte para reparar.",
+      "upload-successful": "Guarde con éxito sus cambios de evaluación",
+      "upload-failure": "Hubo un problema al subir su evaluación. Por favor intente nuevamente",
+      "footer": "Por favor revise los daños haciendo clic en el botón de ‘editar’ en la esquina superior derecha de la imagen.",
+      "no-damage" :  "No se encontraron daños significativos, por lo que no se puede crear un informe",
+      "error-estimating" : "Hubo un problema al publicar los datos de estimación de reclamos en el algoritmo. Por favor intente nuevamente."
+    },
+    "review": {
+      "miss-anything": "¿Nos perdimos algo?",
+      "add-manually": "Agregar nuevo daño",
+      "edit-guide": "Edite los daños haciendo clic en el botón editar en cada cuadro.",
+      "next-photo": "Siguiente foto",
+      "add-damage": "Agregar nuevo daño",
+      "generate-report": "Generar reporte"
+    },
+    "review-footer": {
+      "policy": "política",
+      "claim": "reclamación",
+      "previous-damage": "Daño Anterior",
+      "next-damage": "Siguiente Daño",
+      "return-text": "Regresar a {{incidentType}}"
+    },
+    "add-damage": {
+      "title": "Agregar Daño",
+      "prior-damage": "Esto es previo al daño",
+      "with-brush": "Agregar daño con el pincel",
+      "select-part": "Por favor seleccione una parte",
+      "part-placeholder": "Parte",
+      "select-damage": "Por favor seleccione daño",
+      "damage-placeholder": "Daño"
+    },
+    "edit-damage": {
+      "title": "Revisar Imagen",
+      "glass-damage": "Daño de Vidrio",
+      "gouge": "Perforación",
+      "light-damage": "Daño leve",
+      "missing-piece": "Pieza faltante",
+      "scratch": "Rasguño",
+      "scuff": "Desgaste"
+    },
+    "claim-status": {
+      "continue": "Continuar",
+      "pending-review": "Revisión Pendiente",
+      "paid": "Pagado"
+    },
+    "vehicle-info": {
+      "title": "Su vehículo",
+      "subtitle": "Ingrese la información de su vehículo a continuación seleccionando entre las opciones desplegables. Si no encuentra su marca o modelo por favor ingréselos manualmente.",
+      "make": "Marca",
+      "model": "Modelo",
+      "year": "Año",
+      "success-notification": "Información del vehículo guardada exitosamente"
+    },
+    "odometer":{
+      "title": "Odómetro",
+      "place-holder" : "Ingrese la lectura del odómetro",
+      "Enter_reading":"Introduzca lectura del cuentakm (km recorridos hasta la fecha) y suba foto." ,
+      "Where-to-find" :"Puede encontrar la lectura de km en el cuadro de mandos sobre el volante.",
+      "upload-photo" : "Subir foto",
+      "skip-link": "Omitir este paso",
+      "upload-failed" : "La imagen no se pudo subir, por favor intenta subirla nuevamente",
+      "warn-message" : "Ingrese la lectura del odómetro"
+    },
+    "license" : {
+      "title": "Matrícula",
+      "place-holder" : "Ingrese el número de matrícula",
+      "Enter_number" : "Introduzca su número de matrícula y suba una foto",
+      "skip-link": "Omitir este paso",
+      "upload-photo" : "Subir foto",
+      "upload-failed" : "La imagen no se pudo subir, por favor intenta subirla nuevamente",
+      "warn-message" : "Por favor ingrese su número de placa"
+    },
+    "basic-info" : {
+      "title" : "Detalles de Contacto",
+      "name" : "Nombre",
+      "number" : "Número de Teléfono",
+      "email" : "Correo Electrónico",
+      "warning" : "Por favor llene todos los campos",
+      "return-to-claims" : "Regresar a mis reclamaciones",
+      "return-to-policies" : "Regresar a mis políticas",
+      "try-again" : "Hubo un problema al subir sus datos, por favor intente nuevamente",
+      "success-message" : "Gracias por enviar la información para su reclamo. HailPro se comunicará con usted en breve" 
+   
+ },
+    "drivers-license" : {
+      "title": "Licencia de Conducir",
+      "place-holder" : "Ingrese el número de su licencia de conducir",
+      "Enter_number" : "Ingrese el número de su licencia de conducir",
+      "skip-link": "Omitir este paso",
+      "upload-photo" : "Subir foto",
+      "upload-failed" : "La imagen no se pudo subir, por favor intente nuevamente",
+      "warn-message" : "Por favor ingrese el número de su licencia de conducir"
+    },
+    "register" : {
+      "title": "Tarjeta de circulación",
+      "place-holder" : "Ingrese el número de tarjeta de registro del vehículo",
+      "Enter_number" : "Subir su foto de la tarjeta de registro",
+      "skip-link": "Omitir este paso",
+      "upload-photo" : "Subir foto",
+      "upload-failed" : "La imagen no se pudo subir, por favor intente nuevamente",
+      "warn-message" : "Please Upload Registration Card Photo"
+    },
+    "accident" :{
+      "title": "Descripción del Accidente",
+      "place_holder" : "EJ.: Golpeé mi auto mientras lo sacaba del estacionamiento. El parachoques trasero tiene una abolladura en el lado izquierdo cuando golpeó el pilar del garaje.",
+      "skip-link": "Omitir este paso"
+    },
+    "common-pose" : {
+      "front" : "delantera",
+      "front_left" : "delantera izquierda",
+      "left" : "izquierda",
+      "rear_left" : "trasera izquierda",
+      "rear" : "trasera",
+      "rear_right" : "trasera derecha",
+      "right" : "derecha",
+      "front_right" : "delantera derecha",
+      "skip" : "omitir esta pose",
+      "subtitle" : "Tomar fotos de su automóvil desde",
+      "loading-policy" : "El reporte de su política se está cargando",
+      "loading-claim" : "El reporte de su reclamación se está cargando",
+      "notification" : "La imagen no se pudo subir, por favor intente nuevamente"
+    },
+    "analysis-images" : {
+      "sub-title-1" : "Nuestro algoritmo marcó",
+      "sub-title-2" : "como dañado con base a estas imágenes",
+      "saving-policy" : "Guardando cambios en su política",
+      "saving-claim" : "Guardando cambios en su reclamación",
+      "placeholder" : "Decisión",
+      "error1" : "No se encontraron daños significativos en este momento, por lo que el reporte no puede ser creado",
+      "try-again" : "Hubo un problema al publicar los datos de estimación de reclamos en nuestro backend. Por favor intente nuevamente más tarde."
+    },
+    "choose_angle" :{
+      "title" : "Elija los ángulos que contienen daños",
+      "particular-angle" : {
+        "front" :{
+          "title" : "Delantera",
+          "description" : "Tome fotos de la parte delantera de su automóvil."
+        },
+        "front-left":{
+          "title" : "Delantera izquierda",
+          "description" : "Tomar fotos de la parte delantera izquierda de su automóvil."
+        },
+        "left":{
+          "title" : "Izquierda",
+          "description" : "Tome fotos de la izquierda de su automóvil."
+        },
+        "rear-left":{
+          "title" : "Trasera Izquierda",
+          "description" : "Tome fotos de la parte trasera izquierda de su automóvil."
+        },
+        "rear":{
+          "title" : "Trasera",
+          "description" : "Tome fotos de la parte trasera de su automóvil."
+        },
+        "rear-right":{
+          "title" : "Trasera Derecha",
+          "description" : "Tome fotos de la parte trasera derecha de su automóvil."
+        },
+        "right":{
+          "title" : "Derecha",
+          "description" : "Tomar fotos de la derecha de su automóvil."
+        },
+        "front-right":{
+          "title" : "Delantera Derecha",
+          "description" : "Tome fotos de la parte derecha delantera de su automóvil."
+        }
+      }
+    },
+    "analysis-result-why": {
+      "why-processed": "Por qué se aceptó esta imagen",
+      "why-not-processed": "Por qué esta imagen fue rechazada"
+    },
+    "analysis" : {
+      "title" : "Diagrama de Mariposa",
+      "subtitle":"Haga clic en una parte para explorar detalles",
+      "view-report" : "Ver Reporte"
+    },
+    "report": {
+      "table-pose":"Pose",
+      "title": "Ver reporte",
+      "table-part": "Partes",
+      "table-damage": "Daños",
+      "table-todo": "Qué hacer",
+      "table-cost": "Costo",
+      "download" : "Descargar cómo XLS",
+      "report-claim" : "Reporte de reclamación",
+      "claim-report" : "Reporte de Reclamación",
+      "claim-id" : "Identificación de Reclamación",
+      "policy-id" : "Identificación de Póliza"
+    }, 
+    "item-detail": {
+      "footer-description": "Compile los daños de diferentes imágenes en un solo reporte."
+    }
+  },
+  "start-incident": {
+    "lets-start": "Comencemos una nueva reclamación",
+    "account-created": "Su cuenta ha sido creada",
+    "tell-vehicle": "Now tell us about your vehicle",
+    "enter-vin": "Ingrese número de serie",
+    "enter-make": "Ingrese marca, modelo, y año"
+  },
+  "vehicle-info-summary" :{
+    "title" : "Resumen de información del vehículo",
+    "vehicle-details" : "Detalles de Vehículo",
+    "make":"Marca",
+    "model" : "Modelo",
+    "year":"Año",
+    "odometer" : "Odómetro",
+    "reading" : "Leyendo",
+    "license-plate" : "Placa",
+    "license-number" : "Número de licencia",
+    "registration-card" : "Tarjeta de circulación",
+    "registration-card-number" : "Número de Tarjeta de circulación",
+    "drivers-license" : "Licencia de Conducir",
+    "drivers-license-number" : "Número de Licencia de Conducir",
+    "accident-description" :"Descripción de Accidente",
+    "description" : "Descripción"
+  },
+  "pose-summary" : {
+    "summary-notification":"Su información está siendo procesada",
+    "title" : "Resumen de imágenes",
+    "uploaded-poses":"Subiendo fotos",
+    "submit-success": "Éxito al enviar información",
+    "submit-error": "Error al enviar información",
+    "missing-images" : "Revise esta página para ver las imágenes que faltan y vuelva a subirlas si es necesario. Si el problema persiste, por favor contacte a un administrador"
+  },
+  "incident-detail":{
+    "please-try-again" : "Hubo un problema al publicar los datos de estimación de reclamos en el algoritmo. Por favor intente nuevamente.",
+    "error" : "No se encontraron daños significativos, por lo que no se puede crear un reporte",
+    "alert-message1" : "Haga clic en el icono de edición en la esquina superior derecha de cada imagen para ver y / o editar los daños.",
+    "alert-message2" : "Haga clic en el icono de información en la esquina superior derecha de cada imagen para ver los daños.",
+    "message" : "Hhhhmm, su vehículo no se cargó por alguna razón. Por favor vuelva a la página de inicio e intente nuevamente.",
+    "go-back" : "Regresar",
+    "claim-id": "Identificación de Reclamación",
+    "policy-id": "Identificación de Póliza",
+    "claim-state" : "Estado de Reclamación",
+    "policy-state" : "Estado de Póliza",
+    "save-appraisal" : "Guardar Evaluación",
+    "save-appraisal-description" : "Captura los cambios realizados por el usuario y los guarda en la base de datos",
+    "view-report" : "Ver Reporte",
+    "view-butterfly" : "Ver Diagrama de Mariposa",
+    "view-butterfly-description" : "Una vista de todas las partes y daños del vehículo",
+    "beta-butterfly" : "(BETA) Ver Diagrama de Mariposa",
+    "getting-error" : "Error al obtener información del vehículo",
+    "appraisal-error" : "Error al intentar encontrar una evaluación activa",
+    "missing-data-error" : "Faltan datos necesarios para cargar la página.",
+    "no-appraisal" : "Este incidente no tiene evaluaciones creadas / activas",
+    "image-rejected" : "Imagen Rechazada",
+    "failed" : "Ha fallado"
+  },
+  "general": {
+    "policy-assist" : "POLÍTICA DE ASISTENCIA",
+    "claim-assist": "ASISTENCIA DE RECLAMACIÓN",
+    "creating-report":"Creando reporte",
+    "not-found" : "no encontrado",
+    "cancel" : "Cancelar",
+    "intact": "Intacto",
+    "damaged":"Dañado",
+    "empty-pose" : "Por favor seleccione cualquiera de las poses",
+    "empty-image" : "Por favor al menos suba una imagen para hacer el análisis de los daños",
+    "welcome": "Bienvenido",
+    "great": "Estupendo",
+    "start": "Comenzar",
+    "add-more": "Agregar más",
+    "whole-vehicle":"Todo el vehículo",
+    "Individual-damage" : "Daño individual",
+    "clear-all": "Eliminar todo",
+    "create": "crear",
+    "please-wait": "Por favor espere...",
+    "loading": "Cargando...",
+    "empty": "Parece que no hay nada aquí",
+    "loading-policy" : "Cargando datos para su política",
+    "loading-claim" : "Cargando datos para su reclamación",
+    "return-to-policies" : "Regresar a mis políticas",
+    "return-to-claims" : "Regresar a mis reclamaciones",
+    "car-parts": {
+      "roof": "Techo",
+      "door": "Puerta",
+      "windshield": "Parabrisas",
+      "fender": "Defensa",
+      "bumper": "Parachoque"
+    },
+    "damage-action": {
+      "replace": "Reemplazar",
+      "repair": "Reparar",
+      "remove": "Eliminar parte"
+    },
+    "404": {
+      "page-not-found": "¡Oops! No se pudo encontrar esta página",
+      "go-home": "Ir a la página de inicio"
+    }
+  }
+}

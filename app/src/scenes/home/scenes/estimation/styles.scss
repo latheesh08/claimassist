@@ -1,0 +1,102 @@
+@import '../../../../stylesheets/master.scss';
+
+// table th:nth-child(1){ display:none;} 
+// table td:nth-child(1){ display:none;} 
+
+.report-container {
+  width: 100%;
+  .car-specs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      .name {
+        font-weight: bold;
+      }
+      .type {
+        color: #999999;
+      }
+    }
+    .claim {
+      .id {
+        color: #999999;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .id:before {
+        // content: 'CLAIM ID: '
+      }
+    }
+  }
+  
+  .save-icon {
+    opacity: 0.3;
+  }
+
+  .car-estimation-table {
+    background-color: #f2f2f2;
+    margin-top: 16px;
+    margin-bottom: 16px;    
+    text-transform: capitalize;
+    max-width: 95%;
+    overflow : auto;
+    td, th {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+    th {
+      font-weight: bold;
+      color: black;
+    }
+  }
+
+  .download {
+    .download-as {
+      height: 60px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid #d1effc;
+      color: $color-light-blue;
+
+      a {
+        vertical-align: middle;
+      }
+    }
+
+    .download-as:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .car-estimation-table {
+      width : 660px !important;
+  }
+}
+
+@media (max-width: 630px) {
+  .car-estimation-table {
+      width : 450px !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .car-estimation-table {
+      width : 390px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .car-estimation-table {
+      width : 320px !important;
+  }
+}

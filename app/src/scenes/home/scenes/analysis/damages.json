@@ -1,0 +1,119 @@
+{
+    "front_bumper" : "Bumper-Front",
+    "rear_bumper" : "Bumper-Back" ,
+    "front_door_panel" : 
+    {
+        "front_left": "Door-Front-Left" ,
+        "front_right":"Door-Front-Right" , 
+        "right" : "Door-Front-Right" ,
+        "left": "Door-Front-Left"
+    },  
+    "rear_door_panel" :
+    {
+        "rear_left":"Door-Back-Left",
+        "rear_right":"Door-Back-Right"  ,
+        "right" : "Door-Back-Right" ,
+        "left" : "Door-Back-Left"
+    }  , 
+    "front_fender_wing_panel" : 
+    {
+        "front_left":"Fender-Front-Left",
+        "front_right":"Fender-Front-Right" , 
+        "left":"Fender-Front-Left" , 
+        "right":"Fender-Front-Right" 
+    },  
+    "grille" : [],  
+    "hood" :"Hood",  
+    "license_plate" :"License-Plate",  
+    "trunk" :"Trunk",  
+    "head_light" :  
+    {
+        "front_right" : "Headlight-Right", 
+        "front_left" :"Headlight-Left" 
+    },  
+    "tail_light" : 
+    { 
+        "rear_left" : "Tail-Light-Left",
+        "rear_right" : "Tail-Light-Right" 
+    },  
+    "window_glass" :
+    {
+        "front_left":"Window-Front-Left" , 
+        "front_right" :  "Window-Front-Right" , 
+        "rear_right" :"Window-Back-Right", 
+        "rear_left" : "Window-Back-Left"
+    },  
+    "quarter_panel" :
+    {
+        "rear_left":"Fender-Back-Left",
+        "rear_right":"Fender-Back-Right" 
+    }, 
+    "rear_back_glass" :"Rear-Window",  
+    "wheel" : 
+    {
+        "rear_left" : "Wheel-Rear-Left" ,
+        "front_left" : "Wheel-Front-Left" ,
+        "rear_right" : "Wheel-Back-Right",
+        "front_right" : "Wheel-Front-Right"
+    },  
+    "windshield" :"Windshield",  
+    "glass" :[],  
+    "lower_bumper_grille":
+    {
+        "front_left" : "Fender-Front-Left",  
+        "front_right" :"Fender-Front-Right" 
+    },  
+    "fog_light" : 
+    { 
+        "front_left" : "Fender-Front-Left",  
+        "front_right" :"Fender-Front-Right" 
+    },
+    "emblem" :[],    
+    "rocker_panel" : 
+    {
+        "right":"Side-Skirt-Right", 
+        "left":"Side-Skirt-Left"
+    },  
+    "door_handle" :
+    {
+        "front_left":"Door-Front-Left" , 
+        "rear_left":"Door-back-Left", 
+        "front_right":"Door-Front-Right", 
+        "rear_right" :"Door-Back-Right"
+    },  
+    "rear_tail_skirt" :"Bumper-Back",  
+    "side_mirror" : 
+    {
+        "right":"Side-Mirror-Right", 
+        "left":"Side-Mirror-Left"
+    },
+    "front_bumper_cover":[],
+    "rear_bumper_cover":[],
+    "bumper_spoiler":[],
+    "bumper_valance_panel":[],
+    "lower_bumper_valance_panel":[],
+    "rear_bumper_step_pad":[],
+    "bumper_impact_bar":[],
+    "fender_wheel_liner":[],
+    "liftgate_shell":[],
+    "liftgate_glass":[],
+    "pickup_bed_side_panel":[],
+    "quarter_outer_panel":[],
+    "quarter_inner_Panel":[],
+    "tailgate_shell":[],
+    "mud_flap":[],
+    "turn_signal_light":[],
+    "sunroof_frame":[],
+    "fender_vent":[],
+    "wheel_arch_panel":[],
+    "pillar":[],
+    "license_plate_bracket":[],
+    "door_shell":[],
+    "door_moulding":[],
+    "fender":[],
+    "roof":[],
+    "front_door_glass":[],
+    "rear_door_glass":[],
+    "quarter_glass":[]
+    
+}

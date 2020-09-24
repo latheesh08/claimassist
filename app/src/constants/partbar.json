@@ -1,0 +1,163 @@
+{
+	"front_bumper": {
+		"ele_prtCode": "210",
+		"ele_part": "front bumper",
+		"ele_status": "front bumper identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"bumper_grille": {
+		"ele_prtCode": "224",
+		"ele_part": "bumper grille",
+		"ele_status": "bumper grille identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"lower_bumper_grille": {
+		"ele_prtCode": "237",
+		"ele_part": "lower bumper grille",
+		"ele_status": "lower bumper grille identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"hood_panel": {
+		"ele_prtCode": "206",
+		"ele_part": "hood panel",
+		"ele_status": "hood panel identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},	
+	"front_lamp": {
+		"ele_prtCode": "241",
+		"ele_part": "front lamp",
+		"ele_status": "front lamp identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"fog_lamp": {
+		"ele_prtCode": "246",
+		"ele_part": "rear bumper",
+		"ele_status": "rear bumper identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"mirror": {
+		"ele_prtCode": "222",
+		"ele_part": "mirror",
+		"ele_status": "mirror detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"windshield": {
+		"ele_prtCode": "261",
+		"ele_part": "windshield",
+		"ele_status": "windshield identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"fender_panel": {
+		"ele_prtCode": "202",
+		"ele_part": "fender panel",
+		"ele_status": "fender panel identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"front_door": {
+		"ele_prtCode": "204",
+		"ele_part": "front door",
+		"ele_status": "front door detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"rear_door": {
+		"ele_prtCode": "205",
+		"ele_part": "rear door",
+		"ele_status": "rear door detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"door_handle": {
+		"ele_prtCode": "223",
+		"ele_part": "door handle",
+		"ele_status": "door handle detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"rocker_panel": {
+		"ele_prtCode": "238",
+		"ele_part": "rocker panel",
+		"ele_status": "rocker panel detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"quarter_panel": {
+		"ele_prtCode": "203",
+		"ele_part": "quarter panel",
+		"ele_status": "quarter panel detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"window": {
+		"ele_prtCode": "263",
+		"ele_part": "window",
+		"ele_status": "window detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"rear_bumper": {
+		"ele_prtCode": "211",
+		"ele_part": "rear bumper",
+		"ele_status": "rear bumper detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"luggage_lid": {
+		"ele_prtCode": "207",
+		"ele_part": "luggage lid",
+		"ele_status": "luggage lid detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"tail_light": {
+		"ele_prtCode": "242",
+		"ele_part": "tail light",
+		"ele_status": "tail light detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"rear_tail_skirt": {
+		"ele_prtCode": "239",
+		"ele_part": "rear tail skirt",
+		"ele_status": "rear tail skirt detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"rear_window": {
+		"ele_prtCode": "262",
+		"ele_part": "rear window",
+		"ele_status": "rear window detected",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"wheel": {
+		"ele_prtCode": "250",
+		"ele_part": "wheel",
+		"ele_status": "wheel identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"emblem": {
+		"ele_prtCode": "236",
+		"ele_part": "emblem",
+		"ele_status": "emblem identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	},
+	"license_plate": {
+		"ele_prtCode": "247",
+		"ele_part": "license plate",
+		"ele_status": "license plate identified",
+		"tag_icon": "none",
+		"tag_color": "none"
+	}
+}

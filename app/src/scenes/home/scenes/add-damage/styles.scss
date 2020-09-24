@@ -1,0 +1,30 @@
+
+.add-damage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .photo-container {
+    position: sticky;
+
+    img {
+      width: 315px;
+    }
+  }
+
+  .action {
+    width: 70%;
+    margin-top: 30px;
+
+    .buttons {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 30px;
+      color: yellow;
+    }
+
+    .description {
+      color: yellow;
+    }
+  }
+}

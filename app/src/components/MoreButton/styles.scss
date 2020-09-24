@@ -1,0 +1,14 @@
+@import "../../stylesheets/master";
+
+.more-button {
+  padding-right: 10px;
+}
+.more-container {
+  // width: 100%;
+  height: 20px;
+  margin-bottom: 30px;
+  // flex-direction: row;
+  // display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}

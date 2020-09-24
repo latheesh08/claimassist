@@ -1,0 +1,31 @@
+@import '../../../../stylesheets/master';
+
+.car-specs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      .name {
+        font-weight: bold;
+      }
+      .type {
+        color: #999999;
+      }
+    }
+    .claim {
+      .id {
+        color: #999999;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .id:before {
+        // content: 'CLAIM ID: '
+      }
+    }
+  }

@@ -1,0 +1,18 @@
+.gridlist{
+    flex-direction: row;
+    width: 500px;
+    height : 450px;
+    flex-wrap: nowrap !important;
+  }
+
+h4{
+  text-transform: capitalize;
+}
+
+  @media (max-width: 768px) {
+    .gridlist {
+        width: auto;
+        height : auto;
+        flex-wrap: wrap !important;
+      }
+  }

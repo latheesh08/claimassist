@@ -1,0 +1,567 @@
+{
+  "auth": {
+    "policy": "Policy",
+    "claim": "Claim",
+    "app-title": "{{clientName}} Mobile {{incidentType}} Assist App",
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Confirm",
+    "forgot-password": "Forgot password？",
+    "register-to-claim": "Register to create your claim",
+    "already-have-account": "Already have an account?",
+    "log-in": "Log in",
+    "login-error": "Oops, we encountered a problem during the login process. please try again and if the problem persists contact an administrator",
+    "user-credentials-problem": "There was an issue extracting your user credentials, please try again and if the problem persists contact an administrator"
+  },
+  "top-nav": {
+    "submitter" : "Submitter",
+    "reviewer" : "Reviewer",
+    "supervisor" : "Supervisor",
+    "claim" : "claim",
+    "policy" : "policy",
+    "my-claims": "Show my claims",
+    "my-policies" : "Show my policies",
+    "start-policy" : "Start new policy",
+    "start-incident": "Start new claim",
+    "delete-image-message": "Are you sure you want to delete this image?",
+    "delete-damage-message": "Are you sure you want to delete this damage?",
+    "unsaved-policy": "There are unsaved changes made to the policy, would you like to save them?",
+    "unsaved-claim": "There are unsaved changes made to the claim, would you like to save them?",
+    "unsaved-message": "There are unsaved changes made to the {{system}}, would you like to save them?",
+    "alert-message": "Are you sure you want to start a new claim?",
+    "policy-alert-message": "Are you sure you want to start a new policy?",
+    "alert-cancel":"No, cancel my changes.",
+    "alert-save":"Yes, save my changes.",
+    "alert-yes-text": "Yes please",
+    "alert-ok-text": "Ok, Thanks",
+    "alert-no-text": "Not really",
+    "logout": "Logout"
+  },
+  "main-footer": {
+    "logout-message": "Are you sure you want to logout?",
+    "alert-yes-logout": "Yes Please",
+    "alert-no-logout": "Not really"
+  },
+  "parts":{
+    "fender":"fender"  ,
+    "quarter_panel":"quarter panel" ,
+    "front_door_panel":"front door panel"  ,
+    "rear_door_panel":"rear door panel"  ,
+    "hood":"hood"  ,
+    "trunk":"trunk"  ,
+    "roof":"roof"  ,
+    "front_bumper":"front bumper"  ,
+    "rear_bumper":"rear bumper"  ,
+    "side_mirror":"side mirror"  ,
+    "door_handle":"door handle"  ,
+    "grille":"grille"  ,
+    "emblem":"emblem"  ,
+    "lower_bumper_grille":"lower bumper grille"  ,
+    "rocker_panel":"rocker panel"  ,
+    "rear_tail_skirt":"rear tail skirt"  ,
+    "head_light":"head light"  ,
+    "tail_light":"tail light"  ,
+    "fog_light":"fog light"  ,
+    "wheel":"wheel rim"  ,
+    "glass":"glass"  ,
+    "windshield":"windshield"  ,
+    "rear_back_glass":"rear back glass"  ,
+    "front_door_glass":"front window glass"  ,
+    "rear_door_glass":"rear window glass"  ,
+    "quarter_glass":"quarter glass"  ,
+    "license_plate":"license plate"  ,
+    "front_bumper_cover":"front bumper cover"  ,
+    "rear_bumper_cover":"rear bumper cover"  ,
+    "bumper_spoiler":"bumper spoiler"  ,
+    "bumper_valance_panel":"bumper valance panel"  ,
+    "lower_bumper_valance_panel":"lower bumper valance panel"  ,
+    "rear_bumper_step_pad":"rear bumper step pad"  ,
+    "bumper_impact_bar":"bumper impact bar"  ,
+    "fender_Wheel_liner":"fender wheel liner"  ,
+    "liftgate_shell":"liftgate shell"  ,
+    "liftgate_glass":"liftgate glass"  ,
+    "pickup_bed_side_panel":"pickup bed side panel"  ,
+    "quarter_outer_panel":"quarter outer panel"  ,
+    "quarter_inner_Panel":"quarter inner Panel"  ,
+    "tailgate_shell":"tailgate shell"  ,
+    "mud_flap":"mud flap"  ,
+    "turn_signal_light":"turn signal light"  ,
+    "sunroof_frame":"sunroof frame"  ,
+    "fender_vent":"fender vent"  ,
+    "wheel_arch_panel":"wheel arch panel"  ,
+    "pillar":"pillar"  ,
+    "license_plate_bracket":"license plate bracket"  ,
+    "door_shell":"door shell"  ,
+    "door_moulding":"door moulding" 
+  },
+  "damages": 
+        {
+             "scuff": "scuff",
+             "scratch": "scratch",
+       "dent": "dent",
+       "gouge": "gouge",
+       "crack": "crack",
+       "break": "break",
+       "missing_piece": "missing piece",
+       "chip": "chip",
+       "light_damage": "light damage",
+       "glass_damage": "glass damage",
+       "panel_separation": "panel separation"
+},
+  "home": {
+    "main-router" : {
+      "loading-message" : "Gathering data to load the application",
+      "email-prompt-text" : "Please provide your email for confirmation:",
+      "error-message" : "Unable to load the application due to missing data.",
+      "error-triglav" : "Unable to load the application due to missing data. Please include the userId in the url to access the application.",
+      "error-getting" : "Error while getting user info",
+      "error-email-id-mismatch" : "Entered email address did not match the sign-in url email address. Please enter the same email address by clicking on the app link again.",
+      "error-expired-link" : "The app sign-in link has expired. Please request a new one from your provider."
+    },
+    "claim-list": {
+      "title": "My Claims",
+      "claim": "claim",
+      "new-claim": "Create New Claim",
+      "policy": "policy",
+      "new-policy": "Create New Policy",
+      "report-ready": "Report is Ready",
+      "my-claims": "My Claims",
+      "my-policies" : "My Policies",
+      "error1" : "Error while getting incidents info",
+      "waking" : "I am just waking up",
+      "retrieve-claims" : "Retrieving claims list",
+      "retrieve-policies" : "Retrieving policies list",
+      "error2" : "Error while trying to retrieve incidents.",
+      "error-claims" : "Error while getting the claims list",
+      "error-policies" : "Error while getting the policy list",
+      "policy-is-being-analyzed": "policy is being analyzed",
+      "claim-is-being-analyzed": "claim is being analyzed",
+      "view": "view",
+      "review": "review",
+      "approve": "approve",
+      "is": "is",
+      "submitted-on": "Submitted on",
+      "state": "state",
+      "state-in-progress": "in progress",
+      "state-pending-review": "pending review",
+      "state-reviewed": "reviewed",
+      "state-appraised": "appraised"
+    },
+    "input-dropdown" :{
+      "not-found" : " I can't find a matching option"
+    },
+    "enter-vin": {
+      "title": "Your vehicle information number ",
+      "subtitle": "Either enter your vin in the text field below or take a picture of it to use the VIN OCR technology. (beta)",
+      "placeholder": "Enter VIN",
+      "success" : "Vehicle details found",
+      "notfound":"The vehicle details were not found, please enter your vehicle information through the vehicle make/model/year selection",
+      "imagenotfound":"A valid VIN was not found, please try uploading another image or use one of the other options provided",
+      "getting-info" : "Hold on getting information of vin",
+      "upload-photo" : "Upload Image",
+      "skip-link" : "Skip and enter manually",
+      "inferred-vin-warning" : "Please verify & edit the captured VIN to retrieve the vehicle info.",
+      "image-loading-message" : "Scanning your image for a VIN value."
+    },
+    "vehicle-details":{
+      "title" : "Your vehicle",
+      "subtitle" : "Let's gather the vehicle details. Please begin by choosing one of the options below.",
+      "description": "",
+      "scan-vin": "Scan VIN number",
+      "enter-vin": "Enter VIN number",
+      "enter-manually":"Add info manually"
+    },
+    "instructions": {
+      "title": "Thank you for supplying your vehicle info",
+      "take-photos": "Now it's time to take some photos of the vehicle",
+      "photo-notice": "Taking the right photos is crucial so kindly click on the photo tips to view the guideline to click images of the vehicle.",
+      "continue-link": "Continue with photo tips",
+      "skip-link": "Skip the tips"
+    },
+    "terms-privacy":{
+      "terms" : "Terms of Service",
+      "privacy" : "Privacy Policy",
+      "terms_link":"https://www.galaxy.ai/terms-of-service",
+      "privacy_link":"https://www.galaxy.ai/privacy-policy",
+      "terms_privacy_El_Aguila'": "https://elaguila.com.mx/aviso-de-privacidad/"
+    },
+    "photo-tips": {
+      "content": "Your camera should be pointed directly at the damage on your vehicle.",
+      "next-tip": "Next tip",
+      "title": "Photo tips",
+      "previous-tip": "Previous tip",
+      "title-1": "Use the correct angle",
+      "content-1": "Your camera should be pointed directly at the vehicle with the damage at your eye level.",
+      "title-2": "Take image at optimal distance",
+      "content-2": "Take photos outside the car and 5 feet away (2 meters). Taking images from too close or too far should be avoided.",
+      "title-3": "Take image in good lighting",
+      "content-3": "Take photos in a well lit environment. Please avoid images with reflections, glare or dark exposure.",
+      "title-4": "Set up proper environment",
+      "content-4": "Clean all mud/dirt/snow/fluids covering the outside of the car. Remove any tape, adhesive sticks or other foreign objects attached to the surface of the vehicle.",
+      "title-5": "Do not obstruct view of vehicle",
+      "content-5": "Remove any objects that are obstructing the view of the vehicle including body parts (human or otherwise), other people or reflections of the photographer"
+    },
+    "photo-upload": {
+      "title": "Photo upload",
+      "subtitle": "Take photos or upload them from your library.",
+      "sit-tight": "Sit tight",
+      "photos-uploaded": "The photos are being uploaded and analyzed. It may take some time.",
+      "snack-message" : "A server error occurred. Please contact an administrator if this problem persists.",
+      "uploading": "Uploading...",
+      "initializing": "initializing",
+      "upload-successful": "Successfully uploaded your pictures",
+      "upload-failure": "There was a problem uploading your pictures. Please try again",
+      "upload-error" : "Error while attempting to upload photos. Please try again."
+    },
+    "analysis-result": {
+      "title": "Information Received",
+      "policy": "policy",
+      "claim": "claim",
+      "subtitle": "Thank you for submitting the information for your {{incidentType}}. Someone from {{clientName}} will be in contact with you shortly.",
+      "rejected-header": "Rejected images",
+      "passed-header": "Passed images",
+      "alert-message": "By clicking back you will lose the in progress submission and will be starting a new submission.",
+      "rejected-alert-message": "Please click on the question mark on the image to check why the image was rejected.",
+      "beta-butterfly" : "(BETA) View butterfly diagram"
+    },
+    "estimation" : {
+      "appraisal-success" : "Appraisal state successfully updated",
+      "appraisal-failure" : "There was a problem updating your appraisal",
+      "estimate-success" : "The report was created successfully",
+      "estimate-failure" : "There was a problem creating the report",
+      "notification" : "I am estimating the damage",
+      "title" : "Estimation",
+      "subtitle" : "The estimate data has been generated and approved by {{clientName}}",
+      "basic-info-link" : "I would like {{clientName}} to contact me for a repair appointment",
+      "popup-message" : "Would you like us to contact you for a repair appointment?",
+      "popup-yes" : "Yes please",
+      "popup-no" : "No thanks",
+      "claim-id" :"Claim ID",
+      "save-estimate" : "Save Estimate",
+      "save-estimate-description" : "Captures the user-made changes and saves it to the database",
+      "decision" : "Decision",
+      "glass-labor" : "Glass Labor",
+      "part-labor":"Part Labor",
+      "paint-labor" :  "Paint Labor" ,
+      "paint-labor-amt" : "Paint Labor Amt",
+      "paint-supply-amt" : "Paint Supply Amt",
+      "total-labor-amt" : "Total Labor Amt",
+      "part-price" : "Part Price",
+      "hazardous-waste-amt" : "Hazardous Waste Amt",
+      "currency" : "USD",
+      "time" : "Hrs",
+      "totals" : "Totals",
+      "total-estimate" : "Total Claim Estimate",
+      "claimlevel" : "Claim Level",
+      "type0": "Minor/Moderate",
+      "type2" : "Manual inspection recommended",
+      "type1" : "Severe, Manual inspection recommended",
+      "approve" : "Approve Appraisal",
+      "approve-message" : "Approves the appraisal for review by the claimant",
+      "reviewed" : "Send to approver",
+      "reviewed-message" : "Marks the appraisal as reviewed and notfies the supervisor(s)",
+      "return-claims" : "Return to my claims",
+      "return-policies" : "Return to my policies",
+      "claim-level-comment":"(Optional appraisal comment for the claim submitter)",
+      "prompt": "Are you sure you want to switch the damage level to ",
+      "manual-inspection": "Manual inspection of the vehicle is recommended and this is why the estimates are not shown above. The vehicle could be a total loss."
+    },
+    "review-intro": {
+      "save" : "Save Appraisal",
+      "save-notification":"Saving your appraisal",
+      "title": "Damage review",
+      "subtitle": "Our algorithm identified {{damage}} damages, {{replace}} part to replace, and {{repair}} part to repair.",
+      "upload-successful": "Successfully saved your appraisal changes",
+      "upload-failure": "There was a problem uploading your appraisal. Please try again",
+      "footer": "Please review the damages by clicking on the 'edit' button on the top right corner of the image.",
+      "no-damage" :  "No significant damage was found so a report cannot be created",
+      "error-estimating" : "There was a problem posting the claim estimation data to the algorithm. Please try again."
+    },
+    "review": {
+      "miss-anything": "Did we miss anything?",
+      "add-manually": "Add new damage",
+      "edit-guide": "Edit the damages by clicking on the edit button on each box.",
+      "next-photo": "Next photo",
+      "add-damage": "Add new damage",
+      "generate-report": "Generate report"
+    },
+    "review-footer": {
+      "policy": "policy",
+      "claim": "claim",
+      "previous-damage": "Previous Damage",
+      "next-damage": "Next Damage",
+      "return-text": "Return to {{incidentType}}"
+    },
+    "add-damage": {
+      "title":"Add Damage",
+      "prior-damage":"This is prior damage",
+      "with-brush": "Add damage with the brush",
+      "select-part": "Please select a part",
+      "part-placeholder": "Part",
+      "select-damage": "Please select a damage",
+      "damage-placeholder": "Damage"
+    },
+    "edit-damage": {
+      "title": "Review Image",
+      "glass-damage": "Glass damage",
+      "gouge": "Gouge",
+      "light-damage": "Light damage",
+      "missing-piece": "Missing piece",
+      "scratch": "Scratch",
+      "scuff": "Scuff"
+    },
+    "claim-status": {
+      "continue": "Continue",
+      "pending-review": "Pending Review",
+      "paid": "Paid"
+    },
+    "vehicle-info": {
+      "title": "Your vehicle",
+      "subtitle": "Enter your vehicle info below by selecting from the dropdown options.  If you don't find your make or model, please input them manually.",
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "success-notification": "Successfully saved vehicle information"
+    },
+    "odometer":{
+      "title": "Odometer",
+      "place-holder" : "Enter odometer reading",
+      "Enter_reading":"Enter odometer reading (miles driven to date) and upload a photo." ,
+      "Where-to-find" :"You can find your odometer reading on your gauge cluster above the steering wheel.",
+      "upload-photo" : "Upload photo",
+      "skip-link": "Skip this step",
+      "upload-failed" : "Image failed to upload, please try to re-upload",
+      "warn-message" : "Enter odometer reading"
+    },
+    "license" : {
+      "title": "License Plate",
+      "place-holder" : "Enter license plate number",
+      "Enter_number" : "Enter your license plate number and upload a photo",
+      "skip-link": "Skip this step",
+      "upload-photo" : "Upload photo",
+      "upload-failed" : "Image failed to upload, please try to re-upload",
+      "warn-message" : "Please fill in your license plate number"
+    },
+    "basic-info" : {
+      "title" : "Contact Details",
+      "name" : "Name",
+      "number" : "Phone Number",
+      "email" : "Email Address",
+      "warning" : "Please fill in all the fields",
+      "return-to-claims" : "Return to my claims",
+      "return-to-policies" : "Return to my policies",
+      "try-again" : "There was a problem sending your data, please try again",
+      "success-message" : "Thank you for submitting the information for your claim. A HailPro representative will contact you shortly" 
+
+    },
+    "drivers-license" : {
+      "title": "Drivers License",
+      "place-holder" : "Enter your driving license’s number",
+      "Enter_number" : "Enter your drivers license’s number",
+      "skip-link": "Skip this step",
+      "upload-photo" : "Upload photo",
+      "upload-failed" : "Image failed to upload, please re-upload",
+      "warn-message" : "Please fill in your drivers license’s number"
+    },
+    "register" : {
+      "title": "Registration Card",
+      "place-holder" : "Enter vehicle register card number",
+      "Enter_number" : "Upload your registration card photo",
+      "skip-link": "Skip this step",
+      "upload-photo" : "Upload photo",
+      "upload-failed" : "Image failed to upload, please re-upload",
+      "warn-message" : "Please Upload Registration Card Photo"
+    },
+    "accident" :{
+      "title": "Accident Description",
+      "place_holder" : "EX.: I hit my car while backing it out of the parking lot. The rear bumper has a dent on the left side when it hit the garage pilar.",
+      "skip-link": "Skip this step"
+    },
+    "common-pose" : {
+      "front" : "front",
+      "front_left" : "front left",
+      "left" : "left",
+      "rear_left" : "rear left",
+      "rear" : "rear",
+      "rear_right" : "rear right",
+      "right" : "right",
+      "front_right" : "front right",
+      "skip" : "Skip this pose",
+      "subtitle" : "Take photos of your car from the",
+      "loading-policy" : "Your policy report is loading",
+      "loading-claim" : "Your claim report is loading",
+      "notification" : "Image failed to upload, please re-upload"
+    },
+    "analysis-images" : {
+      "sub-title-1" : " Our algorithm marked",
+      "sub-title-2" : "as damaged based on these images",
+      "saving-policy" : "Saving changes to your policy",
+      "saving-claim" : "Saving changes to your claim",
+      "placeholder" : "Decision",
+      "error1" : "No significant damage was found at this time, so a report cannot be created",
+      "try-again" : "There was a problem posting the claim estimation data to our backend. Please try again later."
+    },
+    "choose_angle" :{
+      "title" : "Choose the angles that contain damages",
+      "particular-angle" : {
+        "front" :{
+          "title" : "Front",
+          "description" : "Take photos of the front of your car."
+        },
+        "front-left":{
+          "title" : "Front Left",
+          "description" : "Take photos of the front left of your car."
+        },
+        "left":{
+          "title" : "Left",
+          "description" : "Take photos of the left of your car."
+        },
+        "rear-left":{
+          "title" : "Rear Left",
+          "description" : "Take photos of the rear left of your car."
+        },
+        "rear":{
+          "title" : "Rear",
+          "description" : "Take photos of the rear of your car."
+        },
+        "rear-right":{
+          "title" : "Rear Right",
+          "description" : "Take photos of the rear right of your car."
+        },
+        "right":{
+          "title" : "Right",
+          "description" : "Take photos of the right of your car."
+        },
+        "front-right":{
+          "title" : "Front Right",
+          "description" : "Take photos of the front right of your car."
+        }
+      }
+    },
+    "analysis-result-why": {
+      "why-processed": "Why this image was accepted",
+      "why-not-processed": "Why this image was rejected"
+    },
+    "analysis" : {
+      "title" : "Butterfly Diagram",
+      "subtitle":"Click on a part to explore details",
+      "view-report" : " View Report"
+    },
+    "report": {
+      "table-pose":"Pose",
+      "title": "View report",
+      "table-part": "Parts",
+      "table-damage": "Damages",
+      "table-todo": "To do",
+      "table-cost": "Cost",
+      "download" : "Download as XLS",
+      "report-claim" : "Report for Claim",
+      "claim-report" : "Claim Report",
+      "claim-id" : "Claim ID",
+      "policy-id" : "Policy ID"
+    },
+    "item-detail": {
+      "footer-description": "Compile the damages from different images into a single report."
+    }
+  },
+  "start-incident": {
+    "lets-start": "Let's start a new claim",
+    "account-created": "Your account has been created",
+    "tell-vehicle": "Now tell us about your vehicle",
+    "enter-vin": "Enter VIN",
+    "enter-make": "Enter make, model, and year"
+  },
+  "vehicle-info-summary" :{
+    "title" : "Vehicle Information Summary",
+    "vehicle-details" : "Vehicle Details",
+    "make":"Make",
+    "model" : "Model",
+    "year":"Year",
+    "odometer" : "Odometer",
+    "reading" : "Reading",
+    "license-plate" : "License Plate",
+    "license-number" : "License Number",
+    "registration-card" : "Registration Card",
+    "registration-card-number" : "Registration Card Number",
+    "drivers-license" : "Drivers License",
+    "drivers-license-number" : "Drivers License Number",
+    "accident-description" :"Accident Description",
+    "description" : "Description"
+  },
+  "pose-summary" : {
+    "summary-notification":"Your information is being processed",
+    "title" : "Images Summary",
+    "uploaded-poses":"Uploaded Poses",
+    "submit-success": "Success submitting info",
+    "submit-error": "Error submitting info",
+    "missing-images" : "Please review this page for missing image(s) and re-upload if necessary. If the problem persists please contact an administrator"
+  },
+  "incident-detail":{
+    "please-try-again" : "There was a problem posting the claim estimation data to the algorithm. Please try again.",
+    "error" : "No significant damage was found so a report cannot be created",
+    "alert-message1" : "Click on the edit icon in the top right hand corner of each image to view and/or edit the damages.",
+    "alert-message2" : "Click on the info icon in the top right hand corner of each image to view the damages.",
+    "message" : "Hhhhmm, your vehicle did not load for some reason. Please go back to the homepage and try again.",
+    "go-back" : "Go Back",
+    "claim-id": "Claim ID",
+    "policy-id": "Policy ID",
+    "claim-state" : "Claim State",
+    "policy-state" : "Policy State",
+    "save-appraisal" : "Save Appraisal",
+    "save-appraisal-description" : "Captures the user-made changes and saves it to the database",
+    "view-report" : "View Report",
+    "view-butterfly" : "View Butterfly Diagram",
+    "view-butterfly-description" : "A view of all the vehicles parts and damages",
+    "beta-butterfly" : "(BETA) View Butterfly Diagram",
+    "getting-error" : "Error while getting vehicle info",
+    "appraisal-error" : "Error while trying to find an active appraisal.",
+    "missing-data-error" : "Missing data needed to load page.",
+    "no-appraisal" : "This incident does not have any created/active appraisals",
+    "image-rejected" : "Image Rejected",
+    "failed" : "Failed"
+  },
+  "general": {
+    "policy-assist" : "POLICY ASSIST",
+    "claim-assist": "CLAIM ASSIST",
+    "creating-report":"Creating report",
+    "not-found" : "not found",
+    "cancel" : "Cancel",
+    "intact": "Intact",
+    "damaged":"Damaged",
+    "empty-pose" : "Please select any one of the pose",
+    "empty-image" : "Please upload at least one image to do the damage analysis",
+    "welcome": "Welcome",
+    "great": "Great",
+    "start": "Start",
+    "add-more": "Add more",
+    "whole-vehicle":"Whole vehicle",
+    "Individual-damage" : "Individual damage",
+    "clear-all": "Clear all",
+    "create": "create",
+    "please-wait": "Please wait...",
+    "loading": "Loading...",
+    "empty": "There doesn't seem to be anything here",
+    "loading-policy" : "Loading data for your policy",
+    "loading-claim" : "Loading data for your claim",
+    "return-to-policies" : "Return to my policies",
+    "return-to-claims" : "Return to my claims",
+    "car-parts": {
+      "roof": "Roof",
+      "door": "Door",
+      "windshield": "Windshield",
+      "fender": "Fender",
+      "bumper": "Bumper"
+    },
+    "damage-action": {
+      "replace": "Replace",
+      "repair": "Repair",
+      "remove": "Remove part"
+    },
+    "404": {
+      "page-not-found": "Oops! This page could not be found.",
+      "go-home": "Go to homepage"
+    },
+    "mismatch-prompt":"Are you sure that xxxx is the correct pose for this image? Our algorithm has detected a potential mismatch in the vehicle pose"
+  }
+}

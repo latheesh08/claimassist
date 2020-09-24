@@ -1,0 +1,18 @@
+{
+  "name": "node-express-dashboard-middleware",
+  "version": "0.0.1",
+  "description": "A node server that performs the authentication step required to make external requests to the Galaxy.AI API",
+  "author": "James Donnelly <james@galaxy.ai>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node scripts/start.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "file-type": "^4.4.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}

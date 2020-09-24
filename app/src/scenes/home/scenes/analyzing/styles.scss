@@ -1,0 +1,28 @@
+@import '../../../../stylesheets/master';
+
+.analyzing-container {
+  .car-in-progress {
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .car-outline-progress {
+      position: absolute;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+
+  .state-text {
+    text-align: left;
+    margin-top: 20px;
+    color: $light-gray-color;
+    font-size: 16px;
+  }
+}

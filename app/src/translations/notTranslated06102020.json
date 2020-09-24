@@ -1,0 +1,14 @@
+{
+    "top-nav": {
+        "logout": "Logout"
+    },
+    "home": {
+        "enter-vin": {
+            "inferred-vin-warning" : "Please verify & edit the captured VIN to retrieve the vehicle info.",
+            "image-loading-message" : "Scanning your image for a VIN value."
+        }
+    },
+    "general": {
+        "Individual-damage" : "Individual damage"
+    }
+}

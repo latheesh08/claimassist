@@ -1,0 +1,16 @@
+@import '../../stylesheets/master';
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: $light-gray-color;
+    margin-top: 20px;
+    flex-shrink: 0;
+    a.link-button {
+        text-decoration: none;
+        color: $medium-gray-color;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+}

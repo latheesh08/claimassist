@@ -1,0 +1,105 @@
+@import "../../../../stylesheets/master";
+
+.analysis-result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  // padding: 5px;
+  margin-bottom: 5px;
+
+  .main-area {
+    .result-block {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+
+      > label {
+        font-size: 23px;
+        color: $light-gray-color;
+        padding-bottom: 16px;
+      }
+    }
+  }
+
+  .next-button {
+    margin-bottom: 30px;
+  }
+
+  .grid-list {
+    width: 315px;
+
+    .icon-container {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      right: 10px;
+      bottom: 10px;
+      border-radius: 50%;
+      background-color: $color-light-gray;
+
+      span {
+        font-size: 20px;
+        line-height: 20px;
+        color: $medium-gray-color;
+      }
+    }
+
+    .add-more-container {
+      width: 100%;
+      height: 100%;
+      color: $color-light-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-light-gray;
+
+      .icon {
+        position: relative;
+      }
+      .text {
+        font-size: 16px;
+        padding-bottom: 16px;
+        align-self: flex-end;
+      }
+    }
+
+    .clear-all-container {
+      width: 100%;
+      height: 100%;
+      color: #f62d2d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-light-gray;
+
+      .icon {
+        position: absolute;
+      }
+      .text {
+        font-size: 16px;
+        padding-bottom: 16px;
+        align-self: flex-end;
+      }
+    }
+  }
+
+  .grid-list.reject {
+    .icon-container {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 10px;
+      bottom: 10px;
+      border-radius: 50%;
+      background-color: $color-light-gray;
+
+      span {
+        margin-left: 2px;
+        font-size: 20px;
+        line-height: 20px;
+        color: $medium-gray-color;
+      }
+    }
+  }
+}

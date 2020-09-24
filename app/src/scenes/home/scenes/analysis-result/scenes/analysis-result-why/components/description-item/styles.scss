@@ -1,0 +1,27 @@
+@import '../../../../../../../../stylesheets/master';
+
+.desc-item {
+  display: flex;
+  text-align: start;
+  margin-bottom: 20px;
+
+  .icon-container {
+    padding: 4px 2px;
+    margin-right: 16px;
+    color: $medium-gray-color;
+  }
+
+  .main {
+    font-size: 18px;
+    line-height: 24px;
+
+    .title {
+      color: black;
+      font-weight: bold;
+    }
+
+    .desc {
+      color: $medium-gray-color;
+    }
+  }
+}

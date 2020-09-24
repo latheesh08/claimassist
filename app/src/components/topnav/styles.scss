@@ -1,0 +1,73 @@
+@import '../../stylesheets/master.scss';
+
+.topnav-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+
+  .topnav-toprow {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    // margin-left: -12px;
+    // margin-right: -12px;
+  }
+  .topnav-bottomrow {
+    flex-direction: row;
+    padding-top: 10px;
+  }
+
+  .center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    // height: 100px;
+    position: relative;
+    flex: 1;
+    font-size: 15px;
+    font-weight: 700;
+
+    .title {
+      line-height: 35px;
+    }
+    .fake-title {
+      color: transparent;
+      line-height: 35px;
+    }
+    .user-role {
+      position: absolute;
+      text-transform: capitalize;
+      float: right;
+      top: 0;
+      right: 10px;
+      color: $color-light-blue;
+      line-height: 35px;
+    }
+
+    .close-button {
+      padding: 0;
+    }
+
+    .profile-icon {
+      align-self: flex-start;
+    }
+
+    .more-container {
+      // width: 100%;
+      height: 100px;
+    }
+
+    .icon-wrapper {
+      margin-top: 20px;
+    }
+  }
+}

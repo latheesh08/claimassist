@@ -1,0 +1,161 @@
+{
+  "auth": {
+    "title": "Entrar",
+    "email": "O email",
+    "password": "Senha",
+    "confirm": "Confirme",
+    "forgot-password": "Esqueceu a senha?",
+    "register-to-claim": "Registre-se para criar sua reivindicação",
+    "already-have-account": "já tem uma conta?",
+    "log-in": "Entrar"
+  },
+  "top-nav": {
+    "start-incident": "Iniciar nova reivindicação",
+    "alert-message": "Tem certeza de que deseja iniciar uma nova reivindicação?",
+    "alert-yes-text": "sim por favor",
+    "alert-ok-text": "Ok obrigado",
+    "alert-no-text": "Na verdade não"
+  },
+  "home": {
+    "claim_list": {
+      "title": "Minhas Reclamações",
+      "new-claim": "Crie uma nova reivindicação",
+      "report-ready": "O relatório está pronto",
+      "my-claims": "MINHAS REIVINDICAÇÕES"
+    },
+    "enter-vin": {
+      "title": "Seu veículo",
+      "placeholder": "Digite VIN"
+    },
+    "instructions": {
+      "title": "Obrigado por fornecer informações sobre seu veículo",
+      "take-photos": "Agora é hora de tirar algumas fotos do dano.",
+      "photo-notice": "Tirar as fotos certas é muito importante para nossos algoritmos identificarem e estimarem os danos corretamente.",
+      "continue-link": "Continue com dicas de fotos",
+      "skip-link": "Pule as dicas"
+    },
+    "photo-tips": {
+      "content": "Sua câmera deve ser apontada diretamente para os danos em seu veículo. Imagens tiradas onde o dano não está centrado na imagem fará com que o sistema calcule erroneamente o tamanho do dano.",
+      "next-tip": "Próxima dica",
+      "title": "Dicas de fotos",
+      "previous-tip": "Dica anterior",
+      "title-1": "Use o ângulo correto",
+      "content-1": "Sua câmera deve ser apontada diretamente para os danos em seu veículo. Imagens tiradas onde o dano não está centrado na imagem fará com que o sistema calcule erroneamente o tamanho do dano.",
+      "title-2": "Use a distância adequada",
+      "content-2": "Tire fotos fora do carro e a 2 metros de distância. Tirar fotos de muito perto ou muito longe resultará em resultados ruins.",
+      "title-3": "Use a iluminação adequada",
+      "content-3": "Tire fotos em um ambiente bem iluminado, para que todas as partes e danos sejam visíveis na imagem. A fonte de luz não deve estar refletindo diretamente do carro, criando reflexos.",
+      "title-4": "Configurar ambiente apropriado",
+      "content-4": "Limpe toda lama / sujeira / neve / fluidos cobrindo a parte externa do carro para que os danos sejam claramente visíveis. Remova qualquer fita adesiva, adesivos ou outros objetos estranhos conectados à superfície do veículo. Estes podem interferir com a visibilidade do dano",
+      "title-5": "Não bloqueie a visibilidade do veículo",
+      "content-5": "Remova todos os objetos que estão obstruindo a visão do veículo, incluindo partes do corpo (humanos ou não), outras pessoas ou reflexos do fotógrafo"
+    },
+    "photo-upload": {
+      "title": "Upload de fotos",
+      "subtitle": "Tire fotos ou envie-as da sua biblioteca.",
+      "sit-tight": "espere um pouco",
+      "photos-uploaded": "Por favor, aguarde até que as fotos sejam carregadas e analisadas. Pode levar algum tempo.",
+      "uploading": "Fazendo upload ...",
+      "upload-successful": "Carregou com sucesso suas fotos",
+      "upload-failure": "Houve um problema ao enviar suas fotos. Por favor, tente novamente"
+    },
+    "analysis-result": {
+      "title": "Resultados de análise",
+      "subtitle": "The results here are preliminary, please check your email later for notification regarding final results.",
+      "subtitle-manager": "Results are being computed. You will be able to review and edit them once the processing is complete.",
+      "subtitle-preprocessing-only": "Please click on the question mark icon(s) to see the feedback of the image quality attributes.",
+      "rejected-header": "Imagens rejeitadas",
+      "passed-header": "Boas imagens",
+      "alert-message": "Ao clicar neste você está redefinindo e iniciando uma reivindicação",
+      "rejected-alert-message": "Por favor, clique no ponto de interrogação na imagem para verificar por que a imagem foi rejeitada."
+    },
+    "review-intro": {
+      "title": "Revisão de dano",
+      "subtitle": "Nosso algoritmo identificou {{damage}} danos, {{replace}} partes para substituir e {{repair}} parte para reparo.",
+      "review-intro": "Ocorreu um problema ao salvar os dados. Por favor, tente novamente",
+      "upload-successful": "Successfully saved your appraisal changes",
+      "upload-failure": "There was a problem uploading your appraisal. Please try again",
+      "footer": "Analise os danos clicando no botão 'editar' no canto superior direito da imagem"
+    },
+    "review": {
+      "miss-anything": "Nós nos esquecemos de alguma coisa?",
+      "add-manually": "Adicionar novo dano",
+      "edit-guide": "Edite os danos clicando no botão de edição em cada caixa.",
+      "next-photo": "Próxima foto",
+      "generate-report": "Gerar relatório"
+    },
+    "add-damage": {
+      "with-brush": "Adicione dano com o pincel"
+    },
+    "edit-damage": {
+      "title": "Revise a imagem",
+      "glass-damage": "Dano de vidro",
+      "gouge": "Danificar o carro",
+      "light-damage": "Pequenos danos",
+      "missing-piece": "Peça faltante",
+      "scratch": "Raspe no corpo do carro",
+      "scuff": "Dent no corpo do carro"
+    },
+    "claim-status": {
+      "continue": "Continuar",
+      "pending-review": "Revisão Pendente",
+      "paid": "Pago"
+    },
+    "vehicle-info": {
+      "title": "Seu veículo",
+      "subtitle": "Insira as informações do seu veículo abaixo selecionando as opções suspensas. Se você não encontrar sua marca ou modelo, insira-as manualmente",
+      "make": "Tipo",
+      "model": "Modelo",
+      "year": "Ano do carro",
+      "success-notification": "Informação de veículo guardada"
+    },
+    "analysis-result-why": {
+      "why-processed": "Por que esta imagem foi processada",
+      "why-not-processed": "Por que esta imagem não foi processada"
+    },
+    "report": {
+      "title": "Visualizar relatório",
+      "table-part": "Parte",
+      "table-damage": "Danificar",
+      "table-todo": "lista de afazeres",
+      "table-cost": ""
+    },
+    "item-detail": {
+      "footer-description": "Compile os danos de diferentes imagens em um único relatório."
+    }
+  },
+  "start-incident": {
+    "lets-start": "Vamos começar uma nova reivindicação",
+    "account-created": "Sua conta foi criada",
+    "tell-vehicle": "Agora conte-nos sobre o seu veículo",
+    "enter-vin": "Digite VIN",
+    "enter-make": "Digite marca, modelo e ano"
+  },
+  "general": {
+    "welcome": "Bem vinda",
+    "great": "Ótimo",
+    "start": "Começar",
+    "add-more": "Adicione mais",
+    "clear-all": "Limpar tudo",
+    "create": "crio",
+    "please-wait": "Por favor, espere...",
+    "loading": "Carregando...",
+    "empty": "Parece não haver nada aqui",
+    "car-parts": {
+      "roof": "cobertura",
+      "door": "Porta",
+      "windshield": "Pára-brisa",
+      "fender": "Pára-choque dianteiro",
+      "bumper": "Para-choque traseiro"
+    },
+    "damage-action": {
+      "replace": "Substituir",
+      "repair": "Reparar",
+      "remove": "Remover parte"
+    },
+    "404": {
+      "page-not-found": "Opa! Esta página não pôde ser encontrada.",
+      "go-home": "Vá para a página inicial"
+    }
+  }
+}

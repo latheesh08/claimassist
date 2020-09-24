@@ -1,0 +1,29 @@
+
+.svg_classes {
+    width : 70%
+}
+.report_button {
+    color: #ffffff !important;
+    background-color: #00b3ff !important;
+    margin: 3% 2% !important;
+}
+.report_button{
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    .svg_classes {
+        width : 100%
+    }
+  }
+
+@media (max-width : 500px){
+    .report_button{
+        width: 80%;
+    }
+    .report_button_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

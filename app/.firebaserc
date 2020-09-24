@@ -1,0 +1,77 @@
+{
+  "projects": {
+    "integration": "galaxy-us-dev",
+    "demo": "galaxy-us-demo",
+    "elaguila": "elaguila-mx-beta",
+    "capgem": "capgem-us-demo",
+    "triglav": "triglav-us-demo",
+    "sgs": "sgs-eu-demo",
+    "default": "galaxy-us-dev",
+    "autofiel": "autofiel-eu-demo",
+    "estimatix": "estimatix-us-demo",
+    "lmieu": "lmi-eu",
+    "autogen": "autogeneral-us-pilot",
+    "aimotor": "imtr-aus-pilot"
+  },
+  "targets": {
+    "galaxy-us-dev": {
+      "hosting": {
+        "default": [
+          "galaxy-us-dev"
+        ]
+      }
+    },
+    "autogeneral-us-pilot": {
+      "hosting": {
+        "ag-2": [
+          "claimassist-ag-pilot-2"
+        ],
+        "default": [
+          "autogeneral-us-pilot"
+        ]
+      }
+    },
+    "galaxy-us-demo": {
+      "hosting": {
+        "default": [
+          "galaxy-us-demo"
+        ]
+      }
+    },
+    "estimatix-us-demo": {
+      "hosting": {
+        "default": [
+          "estimatix-us-demo"
+        ]
+      }
+    },
+    "elaguila-mx-beta": {
+      "hosting": {
+        "default": [
+          "elaguila-mx-beta"
+        ]
+      }
+    },
+    "autofiel-eu-demo": {
+      "hosting": {
+        "default": [
+          "autofiel-eu-demo"
+        ]
+      }
+    },
+    "imtr-aus-pilot": {
+      "hosting": {
+        "default": [
+          "imtr-aus-pilot"
+        ]
+      }
+    },
+    "lmi-eu": {
+      "hosting": {
+        "default": [
+          "lmi-eu"
+        ]
+      }
+    }
+  }
+}

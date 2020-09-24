@@ -1,0 +1,32 @@
+{
+    "allDamages": [
+        {
+            "damage": "scuff",
+            "damageSize": 5,
+            "imageId": "2dd8a5f3-72a5-4963-a0f8-fd6dbdf5157b",
+            "part": "front_bumper",
+            "pose": "front_left"
+        },
+        {
+            "damage": "scuff",
+            "damageSize": 0,
+            "imageId": "2dd8a5f3-72a5-4963-a0f8-fd6dbdf5157b",
+            "part": "front_bumper",
+            "pose": "front_left"
+        },
+        {
+            "damage": "scratch",
+            "damageSize": 0,
+            "imageId": "2dd8a5f3-72a5-4963-a0f8-fd6dbdf5157b",
+            "part": "grille",
+            "pose": "front_left"
+        },
+        {
+            "damage": "scratch",
+            "damageSize": 1,
+            "imageId": "8c147744-a2ba-4b52-93e2-ff3059c27bb1",
+            "part": "boot_trunk",
+            "pose": "rear_right"
+        }
+    ]
+}

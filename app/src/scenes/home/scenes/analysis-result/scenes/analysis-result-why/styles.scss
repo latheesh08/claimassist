@@ -1,0 +1,51 @@
+@import "../../../../../../stylesheets/master";
+
+.analysis-result-container {
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .content-image {
+      // max-width: 400px;
+      margin-bottom: 26px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .content-desc {
+      margin-bottom: 26px;
+      color: $medium-gray-color;
+      text-align: start;
+    }
+
+    .content-item-desc-list {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 26px;
+    }
+
+    .image-quality-table {
+      // background-color: #f2f2f2;
+      margin-top: 16px;
+      margin-bottom: 16px;    
+      text-transform: capitalize;
+      width: 100%;
+      overflow : auto ;
+      tr:nth-child(even), th {
+        background-color: #f2f2f2;
+      }
+      td, th {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      th {
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
+}

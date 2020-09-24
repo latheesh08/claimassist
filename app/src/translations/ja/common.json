@@ -1,0 +1,160 @@
+{
+  "auth": {
+    "title": "ログイン",
+    "email": "Eメール",
+    "password": "パスワード",
+    "confirm": "確認する",
+    "forgot-password": "パスワードをお忘れですか？",
+    "register-to-claim": "申し立てを作成するための登録",
+    "already-have-account": "すでにアカウントをお持ちですか？",
+    "log-in": "ログイン"
+  },
+  "top-nav": {
+    "start-incident": "新しい申し立てを開始",
+    "alert-message": "新しい申し立てを始めますか？",
+    "alert-yes-text": "はい、お願いします",
+    "alert-ok-text": "わかりました、ありがとう",
+    "alert-no-text": "あんまり"
+  },
+  "home": {
+    "claim_list": {
+      "title": "私の主張",
+      "new-claim": "新しい申し立てを作成する",
+      "report-ready": "レポートは準備ができています",
+      "my-claims": "私の申し立て"
+    },
+    "enter-vin": {
+      "title": "あなたの車",
+      "placeholder": "VINを入力"
+    },
+    "instructions": {
+      "title": "あなたの車の情報を提供してくれてありがとう",
+      "take-photos": "それでは損傷の写真を撮りましょう。",
+      "photo-notice": "適切な写真を撮ることは、損傷を正しく特定し推定するためのアルゴリズムにとって非常に重要です。",
+      "continue-link": "写真のヒントを続ける",
+      "skip-link": "ヒントを飛ばす"
+    },
+    "photo-tips": {
+      "content": "あなたのカメラはあなたの車の損傷に直接向けられるべきです。損傷が写真の中央にない場所で撮影された画像は、システムが損傷のサイズを誤って推定する原因になります。",
+      "next-tip": "次のチップ",
+      "title": "写真のヒント",
+      "previous-tip": "前のヒント",
+      "title-1": "正しい角度を使う",
+      "content-1": "あなたのカメラはあなたの車の損傷に直接向けられるべきです。損傷が写真の中央にない場所で撮影された画像は、システムが損傷のサイズを誤って推定する原因になります。",
+      "title-2": "適切な距離を使う",
+      "content-2": "2メートル離れた車の外で写真を撮ってください。 近すぎるまたは遠すぎる写真を撮ると、結果が悪くなります。",
+      "title-3": "適切な照明を使用する",
+      "content-3": "明るい場所で写真を撮ってください。 その後、すべての部品と損傷が画像に表示されます。 光源が車に直接反射しないようにし、グレアを起こさないようにしてください。",
+      "title-4": "環境が適切であることを確認してください",
+      "content-4": "損傷がはっきり見えるように、車の外側を覆っているすべての泥、汚れ、雪、液体を掃除してください。 車両の表面に付着しているテープ、ステッカー、その他の異物を取り除きます。 これらは損傷の可視性を妨げる可能性があります",
+      "title-5": "車両の視界を妨げない",
+      "content-5": "身体の一部（人間など）、他の人、写真家の反射など、車の視野を遮るものを取り除いてください。"
+    },
+    "photo-upload": {
+      "title": "写真のアップロード",
+      "subtitle": "写真を撮るか、あなたのライブラリーからアップロードしてください。",
+      "sit-tight": "ちょっと待って",
+      "photos-uploaded": "写真がアップロードされて分析されるまでお待ちください。 時間がかかる場合があります。",
+      "uploading": "アップロードしています...",
+      "upload-successful": "あなたの写真をアップロードしました",
+      "upload-failure": "写真の送信中に問題が発生しました。 もう一度やり直してください"
+    },
+    "analysis-result": {
+      "title": "分析結果",
+      "subtitle": "The results here are preliminary, please check your email later for notification regarding final results.",
+      "subtitle-manager": "Results are being computed. You will be able to review and edit them once the processing is complete.",
+      "subtitle-preprocessing-only": "Please click on the question mark icon(s) to see the feedback of the image quality attributes.",
+      "rejected-header": "拒否された画像",
+      "passed-header": "良い画像",
+      "alert-message": "これで新しい申し立てが始まります",
+      "rejected-alert-message": "画像が拒否された理由を確認するには、画像の疑問符をクリックしてください。"
+    },
+    "review-intro": {
+      "title": "ダメージレビュー",
+      "subtitle": "我々のアルゴリズムは{{damage}}つの損害、{{replace}}つの部分を取り替えること、そして{{repair}}つの部分が修理することを確認した。",
+      "upload-successful": "Successfully saved your appraisal changes",
+      "upload-failure": "評価の保存中に問題が発生しました。 もう一度やり直してください",
+      "footer": "画像の右上隅にある[編集]ボタンをクリックして損害を確認してください"
+    },
+    "review": {
+      "miss-anything": "私たちは何かを忘れましたか？",
+      "add-manually": "新しいダメージを追加",
+      "edit-guide": "各ボックスの編集ボタンをクリックして損害を編集します。",
+      "next-photo": "次の写真",
+      "generate-report": "レポートを生成"
+    },
+    "add-damage": {
+      "with-brush": "ブラシでダメージに関する情報を追加する"
+    },
+    "edit-damage": {
+      "title": "画像を確認する",
+      "glass-damage": "ガラス損傷",
+      "gouge": "深いダメージ",
+      "light-damage": "軽微な被害",
+      "missing-piece": "欠落した部分",
+      "scratch": "スクラッチ",
+      "scuff": "Scuff"
+    },
+    "claim-status": {
+      "continue": "持続する",
+      "processed": "処理済み",
+      "paid": "支払い済み"
+    },
+    "vehicle-info": {
+      "title": "あなたの車",
+      "subtitle": "ドロップダウンオプションから選択して、下記にあなたの車両情報を入力してください。 製造元やモデルが見つからない場合は、手動で入力してください。",
+      "make": "種類",
+      "model": "車のモデル",
+      "year": "車の年",
+      "success-notification": "車両情報を保存"
+    },
+    "analysis-result-why": {
+      "why-processed": "この画像が処理された理由",
+      "why-not-processed": "この画像が処理されなかった理由"
+    },
+    "report": {
+      "title": "レポートを見る",
+      "table-part": "部分",
+      "table-damage": "損傷",
+      "table-todo": "するために",
+      "table-cost": ""
+    },
+    "item-detail": {
+      "footer-description": "異なる画像からの損害を単一の報告書にまとめる。"
+    }
+  },
+  "start-incident": {
+    "lets-start": "新しい申し立てを始めましょう",
+    "account-created": "あなたのアカウントが作成されました",
+    "tell-vehicle": "あなたの車について教えてください。",
+    "enter-vin": "VINを入力",
+    "enter-make": "製造元、モデル、年を入力"
+  },
+  "general": {
+    "welcome": "ようこそ",
+    "great": "すばらしいです",
+    "start": "開始",
+    "add-more": "さらに追加",
+    "clear-all": "すべてクリア",
+    "create": "つくる",
+    "please-wait": "お待ちください...",
+    "loading": "読み込み中...",
+    "empty": "ここには何もないようです",
+    "car-parts": {
+      "roof": "ルーフ",
+      "door": "ドア",
+      "windshield": "フロントガラス",
+      "fender": "フェンダー",
+      "bumper": "バンパー"
+    },
+    "damage-action": {
+      "replace": "交換する",
+      "repair": "修復",
+      "remove": "部品を削除"
+    },
+    "404": {
+      "page-not-found": "おっとっと！ このページは見つかりませんでした。",
+      "go-home": "ホームページへ"
+    }
+  }
+}

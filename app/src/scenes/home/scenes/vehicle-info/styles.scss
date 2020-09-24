@@ -1,0 +1,16 @@
+.vehicle-info-container {
+  padding: 5px;
+  .claim-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media screen and  (max-width: 600px) {
+.id_make_class {
+  height: 300px;
+  overflow:auto;
+}
+
+}

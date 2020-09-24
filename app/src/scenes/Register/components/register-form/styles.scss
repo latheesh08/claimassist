@@ -1,0 +1,10 @@
+.register-form {
+  .passwords-containter {
+    display: flex;
+    justify-content: space-between;
+
+    > div {
+      width: 45%;
+    }
+  }
+}

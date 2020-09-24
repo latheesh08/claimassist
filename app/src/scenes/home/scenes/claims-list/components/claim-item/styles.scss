@@ -1,0 +1,43 @@
+@import '../../../../../../stylesheets/master';
+
+.claim-item {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid $lighter-gray-color;
+
+    .main-text {
+        display: flex;
+
+        .model {
+            font-weight: bold;
+        }
+
+        .other-info {
+            color: $medium-gray-color;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+    }
+
+    .sub-text {
+
+        font-size: 13px;
+        color: $medium-gray-color;
+        font-weight: 500;
+        margin-top: 10px;
+
+        .status-text {
+            color: $light-gray-color;
+            margin-left: 10px;
+        }
+
+        .status-link {
+            text-decoration: none;
+            margin-left: 10px;
+            color: $color-light-blue;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../stylesheets/master.scss';
+
+.icon-container {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  background-color: $color-light-gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  span {
+    font-size: 20px;
+    line-height: 20px;
+    margin: auto;
+    align-self: center;
+    color: $medium-gray-color;
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "poses" : [
+        {
+			"key": "front",
+			"name": "front",
+			"code": 580
+        },
+        {
+			"key": "rear",
+			"name": "rear",
+			"code": 581
+        },
+        {
+			"key": "right",
+			"name": "right",
+			"code": 582
+        },
+        {
+			"key": "left",
+			"name": "left",
+			"code": 583
+        },
+        {
+			"key": "front_right",
+			"name": "front right",
+			"code": 584
+        },
+        {
+            "key": "front_left",
+			"name": "front left",
+			"code": 585
+        },
+        {
+			"key": "rear_right",
+			"name": "rear right",
+			"code": 586
+        },
+        {
+			"key": "rear_left",
+			"name": "rear left",
+			"code": 587
+        }
+    ]
+}

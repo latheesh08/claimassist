@@ -1,0 +1,14 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  overflow-y: auto;
+  overflow-x: initial;
+  overflow: auto;
+
+  .sceneContainerClass {
+    height: 100%;
+  }
+}

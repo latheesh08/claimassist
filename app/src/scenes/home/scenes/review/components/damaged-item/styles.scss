@@ -1,0 +1,43 @@
+@import '../../../../../../stylesheets/master';
+
+.damaged-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 8px;  
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  
+  .item-name {
+    display: flex;
+    align-items: center;
+    padding: 6px 20px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid #c1c1c1;
+
+    .item-state {
+      margin-left: 8px;
+      font-size: 16px;
+      font-weight: normal;
+      color: #c4c4c4;
+    }
+  }
+
+  .item-name:last-child {
+    border-bottom: none;
+  }
+
+  .item-damages {
+    .damage {
+      padding: 6px 20px;
+      border-bottom: 1px solid #e5e5e5;
+      color: #696969;
+      text-align: left;
+    }
+
+    .damage:last-child {
+      border-bottom: none;
+    }
+  }
+}

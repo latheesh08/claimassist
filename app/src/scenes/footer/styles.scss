@@ -1,0 +1,22 @@
+.mainfooter-wrapper {
+    margin: 0 0;
+    padding: 0 0;
+    width:100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+
+    .button-link {
+        margin: 0 0;
+        padding: 0 0;
+        width:100%;
+        font-size: 15px;
+        font-weight: 700;
+        height: 50px;
+        text-transform: uppercase;
+    }
+}
